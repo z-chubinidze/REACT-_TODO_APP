@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-box {
+  width: 100%;
+
+  background-color: #191919;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border: 5px solid rgb(65, 65, 199);
+  border-radius: 20px;
+
+
+}
+
+hr {
+  border: 1px solid grey;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.todobox-task-field {
+  max-height: 55vh;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.todo-tasks-box {
+  background-color: transparent;
+  border: 2px solid #FFF;
+  border-radius: 20px;
+
+
+}
+
+.completed-container .completed-text {
+  text-decoration: line-through !important;
+  color: green !important;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  
+}
+
+.task-content {
+  font-family: 'Arial Narrow', Arial, sans-serif !important;
+  color: #f00606ee;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+
+
+
+
+.del-btn {
+  padding: 5px !important;
+  font-size: 12px;
+  font-weight: 500;
+  height: 20px;
+
+}
